@@ -37,13 +37,13 @@ public class Main {
         var massDifference = secondBoxer % firstBoxer;
         System.out.println(massDifference);
 
-        var openingHour = 640;
-        var workingHour = 8;
-        var totalEmployees = openingHour / workingHour;
+        var openingHours = 640;
+        var workingHours = 8;
+        var totalEmployees = openingHours / workingHours;
         System.out.println("Всего работников в компании "+totalEmployees+" человек");
 
         totalEmployees = totalEmployees + 94;
-        var workHour = openingHour / totalEmployees;
+        var workHour = openingHours / totalEmployees;
         System.out.println("Если в компании работает "+totalEmployees+" человек, то всего "+workHour+" часов работы может быть поделено между сотрудниками");
 
     }
