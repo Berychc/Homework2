@@ -37,8 +37,6 @@ public class Main {
         var massDifference = secondBoxer % firstBoxer;
         System.out.println(massDifference);
 
-        var Bmw = 666;
-        System.out.println(Bmw);
         var hourOpening = 640;
         var workOpening = 8;
         var totalEmployees = hourOpening / workOpening;
